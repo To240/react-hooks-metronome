@@ -1,0 +1,42 @@
+.metronome-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/linear-white-green-gradient-5120x2880-c2-90ee90-f0f8ff-a-90-f-14.svg");
+
+}
+
+.bpmText{
+  font-weight:bolder;
+  text-align:center;
+}
+
+.bpm-slider input {
+    width: 100%;
+    margin: 10px;
+  }
+  
+ .startButton {
+    background: #EDDE74;
+    padding: 10px;
+    border: 1px solid  #EDDE74;
+    border-radius: 16px;
+    width: 100px;
+    color: black;
+    font-size: 18px;
+    margin-right: 1em;
+    margin-left: 1em;
+    cursor: pointer;
+  }
+
+  .bpmButton{
+    background: #E97E7E;
+    padding: 10px;
+    border: 1px solid #E97E7E;
+    border-radius: 16px;
+    width: 100px;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+  }
